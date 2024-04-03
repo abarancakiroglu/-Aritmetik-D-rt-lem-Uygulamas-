@@ -1,0 +1,44 @@
+ 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dört_işlem
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            int sayi1, sayi2, toplam, fark, carpma, bolum;
+
+            Console.WriteLine("********Aritmetik İşlem*******");
+            Console.WriteLine();
+
+            Console.Write("Lütfen Birinci Sayıyı Girin = ");
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Lütfen İkinci Sayıyı Girin = ");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+
+            toplam = sayi1 + sayi2;
+            Console.WriteLine("Toplam= " + toplam);
+
+            fark = sayi1 - sayi2;
+            Console.WriteLine("Fark= " + fark);
+
+
+            carpma = sayi1 * sayi2;
+            Console.WriteLine("Çarpma= " + carpma);
+
+            bolum = sayi1 / sayi2;
+            Console.WriteLine("Bölüm= " + bolum);
+
+
+            Console.ReadLine();
+        }
+    }
+}
